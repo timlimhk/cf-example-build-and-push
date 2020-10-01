@@ -15,7 +15,7 @@ steps:
     title: Building Node.Js Docker Image
     type: build
     stage: build
-    image_name: my-node-js-app
+    image_name: timlimhk/my-node-js-app
     working_directory: '.'
     tag: 'master'
     dockerfile: Dockerfile
