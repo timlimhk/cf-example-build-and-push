@@ -25,5 +25,5 @@ steps:
     title: Pushing to a registry
     candidate: ${{build_my_app}}
     tag: 'v1.0.0'
-    registry: dockerhub
+    registry: dk-repos
     image_name: timlimhk/my-node-js-app
