@@ -8,7 +8,7 @@ steps:
     title: Cloning main repository...
     type: git-clone
     stage: checkout
-    repo: 'codefreshdemo/cf-example-build-and-push'
+    repo: 'timlimhk/cf-example-build-and-push'
     revision: 'master'
     git: github
   build_my_app:
@@ -26,4 +26,4 @@ steps:
     candidate: ${{build_my_app}}
     tag: 'v1.0.0'
     registry: dockerhub
-    image_name: kkapelon/my-node-js-app
+    image_name: timlimhk/my-node-js-app
