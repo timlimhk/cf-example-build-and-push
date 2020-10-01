@@ -10,7 +10,7 @@ steps:
     stage: checkout
     repo: 'timlimhk/cf-example-build-and-push'
     revision: 'master'
-    git: github
+    git: github-1
   build_my_app:
     title: Building Node.Js Docker Image
     type: build
