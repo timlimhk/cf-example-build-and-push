@@ -20,6 +20,8 @@ steps:
     tag: 'master'
     dockerfile: Dockerfile
     disable_push: false
+    no_cache: false
+    no_cf_cache: false
   push_to_my_registry:
     stage: 'push'
     type: push
